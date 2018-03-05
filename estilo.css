@@ -1,0 +1,108 @@
+
+.navbar-item {
+
+  color: white;
+}
+
+h6{
+  color: white;
+}
+
+.main{
+  background-color: white;
+}
+.row{
+  display:flex;
+}
+
+.tekhne {
+  color: white;
+}
+
+.img-carousel{
+  height: 15rem;
+  display: block;
+  margin:auto;
+}
+
+.info1 img{
+  max-width: 3rem;
+  max-height: 3rem;
+  margin: 1rem;
+}
+
+.info img{
+  max-width: 4rem;
+  max-height: 4rem;
+  margin: 1rem auto;
+}
+
+.icon{
+  display: block;
+  margin: auto;
+}
+
+.footer{
+  background-color: rgba(1, 1, 4, 0.93);
+}
+
+.copyright{
+  color: white;
+  background-color: rgba(1, 1, 4, 0.91);
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.card-text{
+  margin:0;
+}
+
+.card-footer{
+  margin: auto;
+  align-self: flex-end;
+}
+
+
+  <!--  ==========================
+        despliegue info
+        ========================= -->
+
+
+  <!--  ==========================
+        media queries
+        ========================= -->
+
+
+        @media (min-width:576px) {
+          .img-carousel{
+            height: 250px;
+            max-width: 100%;
+          }
+
+        @media (min-width:768px) {
+          .img-carousel{
+            height: 350px;
+            max-width: 100%
+          }
+        }
+
+        @media (min-width:992px) {
+          p{
+            margin-left: 100px;
+            margin-right: 100px;
+          }
+          .main{
+            margin-left: 35px;
+            margin-right: 35px;
+          }
+          .img-carousel{
+            height: 450px;
+            padding-top: 15px;
+          }
+          .carousel{
+            display: block;
+            margin: auto;
+            max-width: 75%;
+          }
+        }
